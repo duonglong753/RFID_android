@@ -309,7 +309,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         myAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         mySpinner.setAdapter(myAdapter);
         edtRFID = findViewById(R.id.edtRFID);
-//        btnTaiSan = findViewById(R.id.btnTaiSan);
+        btnTaiSan = findViewById(R.id.btnTaiSan);
         edtTaiSan = findViewById(R.id.edtTaiSan);
         tvThongBao = findViewById(R.id.tvThongBao);
         tvVerify_barcodeRFID =findViewById(R.id.tvVerify_barcodeRFID);

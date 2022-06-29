@@ -18,18 +18,17 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Warehouse"
-            android:textFontWeight="900"
             android:textColor="#f000"
             android:textSize="8pt" />
 
-<!--        <ImageView-->
-<!--            android:id="@+id/imageView"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:layout_weight="2"-->
-<!--            android:padding="10dp"-->
-<!--            app:srcCompat="@drawable/warehouse1" />-->
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:padding="10dp"
+            app:srcCompat="@drawable/warehouse1"
+            />
 
         <LinearLayout
             android:layout_width="313dp"
@@ -121,32 +120,30 @@
             android:layout_weight="1"
             android:weightSum="5">
 
-<!--            <ImageButton-->
-<!--                android:id="@+id/btnTaiSan"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="match_parent"-->
-<!--                android:layout_weight="1"-->
-<!--                android:background="@null"-->
-<!--                android:src="@drawable/barcode" />-->
+            <ImageButton
+                android:id="@+id/btnTaiSan"
+                android:layout_width="58dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:src="@drawable/barcode" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Asset code"
-                android:textFontWeight="900"
                 android:textColor="#f000"
                 android:textSize="8pt" />
 
             <EditText
-                android:paddingLeft="10dp"
-                android:hint="asset code"
-                android:background="@null"
-                android:minWidth="30dp"
-                android:inputType="text"
                 android:id="@+id/edtTaiSan"
-                android:layout_width="wrap_content"
+                android:layout_width="317dp"
                 android:layout_height="match_parent"
                 android:layout_weight="4"
-                android:ems="10" />
+                android:background="@null"
+                android:ems="10"
+                android:hint="asset code"
+                android:inputType="text"
+                android:minWidth="30dp"
+                android:paddingLeft="10dp" />
 
         </LinearLayout>
 
@@ -206,7 +203,8 @@
             android:layout_weight="3"
             android:text="Tags have been mapping:"
             android:textColor="#f000"
-            android:textSize="10pt" />
+            android:textSize="10pt"
+            android:visibility="invisible"/>
 
         <TextView
             android:gravity="center"
@@ -216,7 +214,8 @@
             android:layout_weight="4"
             android:text="0"
             android:textColor="#F44336"
-            android:textSize="10pt" />
+            android:textSize="10pt"
+            android:visibility="invisible"/>
     </LinearLayout>
 
     <LinearLayout
@@ -231,32 +230,31 @@
             android:background="@null"
             android:id="@+id/btnReset"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             app:srcCompat="@drawable/reset"
-            android:visibility="invisible"/>
+            />
 
         <ImageButton
             android:background="@null"
             android:id="@+id/btnView"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            app:srcCompat="@drawable/view"
-            android:visibility="invisible"/>
+            app:srcCompat="@drawable/view" />
 
         <ImageButton
             android:background="@null"
             android:id="@+id/btnUpdate"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             app:srcCompat="@drawable/update"
-            android:visibility="invisible"/>
+            />
 
         <ImageButton
             android:id="@+id/btnSave"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@null"
